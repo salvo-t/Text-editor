@@ -8,7 +8,7 @@
     "start": "npm start --prefix server",
     "server": "",
     "build": "npm run build --prefix client",
-    "install": "npm i --prefix server && npm i --prefix client",
+    "install": "cd server && npm i && cd ../client && npm i",
     "client": ""
   },
   "keywords": [],
