@@ -5,10 +5,10 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "",
-    "start": "",
+    "start": "npm start --prefix server",
     "server": "",
-    "build": "",
-    "install": "",
+    "build": "npm run build --prefix client",
+    "install": "npm i --prefix server && npm i --prefix client",
     "client": ""
   },
   "keywords": [],
